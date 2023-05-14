@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Accordion tab 1</title>
+	<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.acc_sec .acc_heading {
+    background-color: gray;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.content p {
+    padding: 5px 20px;
+}
+
+.content {
+    display: none;
+}
+
+.acc_sec:hover .content {
+    display: block;
+    background-color: #cdc7c7;
+    padding: 10px;
+}
+
+.acc_sec:hover .fa-plus {
+    display: none;
+}
+
+.acc_sec:hover .fa-minus {
+    display: block;
+}
+
+.fa-minus {
+    display: none;
+}
+
+</style>
+
+<body>
+
+	<section class="main">
+
+		<div class="acc_sec">
+			<div class="acc_heading">
+				<h2> Heading Section 1 </h2>
+				<i class="fa-solid fa-plus"></i>
+				<i class="fa-solid fa-minus"></i>
+			</div>
+			<!-- HIDE -->
+			<div class="content">
+				<p> Accordion. An accordion is used to show (and hide) HTML content. Use the w3-hide class to hide the
+					accordion content.
+					The accordion has traditionally been used to perform folk or ethnic music, popular music, and
+					transcriptions from the operatic and light-classical music repertoire.
+				</p>
+			</div>
+
+		</div>
+
+
+		<div class="acc_sec">
+			<div class="acc_heading">
+				<h2> Heading Section 2 </h2>
+				<i class="fa-solid fa-plus"></i>
+				<i class="fa-solid fa-minus"></i>
+			</div>
+			<!-- HIDE -->
+			<div class="content">
+				<p> Accordion. An accordion is used to show (and hide) HTML content. Use the w3-hide class to hide the
+					accordion content.
+					The accordion has traditionally been used to perform folk or ethnic music, popular music, and
+					transcriptions from the operatic and light-classical music repertoire.
+				</p>
+			</div>
+
+		</div>
+
+
+		<div class="acc_sec">
+			<div class="acc_heading">
+				<h2> Heading Section 3 </h2>
+				<i class="fa-solid fa-plus"></i>
+				<i class="fa-solid fa-minus"></i>
+			</div>
+			<div class="content">
+				<p> Accordion. An accordion is used to show (and hide) HTML content. Use the w3-hide class to hide the
+					accordion content.
+					The accordion has traditionally been used to perform folk or ethnic music, popular music, and
+					transcriptions from the operatic and light-classical music repertoire.
+				</p>
+			</div>
+
+		</div>
+
+
+
+		<div class="acc_sec">
+			<div class="acc_heading">
+				<h2> Heading Section 4</h2>
+				<i class="fa-solid fa-plus"></i>
+				<i class="fa-solid fa-minus"></i>
+			</div>
+			<div class="content">
+				<p> Accordion. An accordion is used to show (and hide) HTML content. Use the w3-hide class to hide the
+					accordion content.
+					The accordion has traditionally been used to perform folk or ethnic music, popular music, and
+					transcriptions from the operatic and light-classical music repertoire.
+				</p>
+			</div>
+
+		</div>
+
+
+
+	</section>
+
+</body>
+
+</html>
